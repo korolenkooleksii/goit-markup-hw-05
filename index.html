@@ -66,7 +66,9 @@
       <section class="hero centered">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button" type="button">Замовити послугу</button>
+          <button data-modal-open class="hero-button" type="button">
+            Замовити послугу
+          </button>
         </div>
       </section>
 
@@ -132,25 +134,34 @@
           <h2 class="work-title centered">Чим ми займаємося</h2>
           <ul class="work-list">
             <li class="work-list-item">
-              <img
-                src="./images/img1.jpg"
-                alt="людина працює на клавіатурі"
-                width="370"
-              />
+              <div class="work-thumb">
+                <img
+                  src="./images/img1.jpg"
+                  alt="людина працює на клавіатурі"
+                  width="370"
+                />
+                <p class="work-text">Десктопні додатки</p>
+              </div>
             </li>
             <li class="work-list-item">
-              <img
-                src="./images/img2.jpg"
-                alt="людина переглядає телефон"
-                width="370"
-              />
+              <div class="work-thumb">
+                <img
+                  src="./images/img2.jpg"
+                  alt="людина переглядає телефон"
+                  width="370"
+                />
+                <p class="work-text">Мобільні додатки</p>
+              </div>
             </li>
             <li class="work-list-item">
-              <img
-                src="./images/img3.jpg"
-                alt="людина переглядає планшет"
-                width="370"
-              />
+              <div class="work-thumb">
+                <img
+                  src="./images/img3.jpg"
+                  alt="людина переглядає планшет"
+                  width="370"
+                />
+                <p class="work-text">Дизайнерські рішення</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -497,7 +508,9 @@
                 >
               </li>
               <li class="footer-list-item">
-                <a class="footer-list-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="footer-list-link" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -550,5 +563,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
