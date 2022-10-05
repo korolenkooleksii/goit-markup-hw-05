@@ -730,7 +730,6 @@ body {
   border-radius: 4px;
 
   transition: transform 500ms ease-in-out;
-
 }
 
 .modal-button {
@@ -757,4 +756,3 @@ body {
 .modal-button:focus .modal-icon {
   color: var(--accent-color);
 }
-
